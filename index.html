@@ -73,13 +73,59 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
+        <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-      <img src="assets/img/hero-bg.jpg" alt="Hero Background" data-aos="fade-in" class="">
+      <div class="hero-gradient-bg"></div>
+      <div class="hero-animated-elements">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+      </div>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>John Ongoma</h2>
-        <p>I'm <span class="typed" data-typed-items="an IT technician, a Web Developer, a Graphic Designer, an Office Administrator, a Content Creator, a Digital Innovator"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      <div class="container hero-content" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center gy-4">
+          <!-- Left Content -->
+          <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <h1 class="hero-title">John Ongoma</h1>
+            <p class="hero-subtitle">I'm <span class="typed" data-typed-items="an IT technician, a Web Developer, a Graphic Designer, an Office Administrator, a Content Creator, a Digital Innovator"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            <p class="hero-description">
+              Transforming ideas into digital reality through innovative solutions and creative excellence
+            </p>
+            <div class="hero-buttons">
+              <a href="#portfolio" class="btn btn-primary btn-lg">
+                <i class="bi bi-briefcase"></i> View My Work
+              </a>
+              <a href="#contact" class="btn btn-outline-light btn-lg ms-2">
+                <i class="bi bi-envelope"></i> Get In Touch
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Photo Section -->
+          <div class="col-lg-6 text-center">
+            <div class="hero-photo-wrapper">
+              <div class="photo-frame">
+                <img src="assets/img/my-profile-img.jpg" alt="John Ongoma Profile" class="hero-photo" data-aos="zoom-in" data-aos-delay="300">
+                <div class="photo-glow"></div>
+              </div>
+              <div class="floating-badge badge-1" data-aos="fade-left" data-aos-delay="400">
+                <i class="bi bi-code-square"></i> Web Dev
+              </div>
+              <div class="floating-badge badge-2" data-aos="fade-right" data-aos-delay="500">
+                <i class="bi bi-palette"></i> Design
+              </div>
+              <div class="floating-badge badge-3" data-aos="fade-up" data-aos-delay="600">
+                <i class="bi bi-film"></i> Creative
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="800">
+        <span>Scroll to explore</span>
+        <i class="bi bi-chevron-down"></i>
       </div>
     </section><!-- /Hero Section -->
 
