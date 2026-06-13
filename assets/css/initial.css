@@ -909,6 +909,7 @@ section,
 .skills .progress-bar-wrap {
   background: color-mix(in srgb, var(--default-color), transparent 90%);
   height: 10px;
+  border-radius: 10px;
 }
 
 .skills .progress-bar {
